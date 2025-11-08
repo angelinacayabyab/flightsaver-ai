@@ -1,0 +1,19 @@
+
+{
+  "name": "flightsaver-ai",
+  "version": "1.0.0",
+  "description": "Autonomous AI agent for flight monitoring and rebooking.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "AI ATL 2025 Hackathon",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

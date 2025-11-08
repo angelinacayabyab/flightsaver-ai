@@ -1,0 +1,5 @@
+{
+  "name": "FlightSaver AI",
+  "description": "An autonomous AI agent that monitors flights in real-time, detects delays/cancellations, and autonomously finds alternative flight routes.",
+  "requestFramePermissions": []
+}
