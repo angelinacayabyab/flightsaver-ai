@@ -234,3 +234,38 @@ button[type="submit"]:disabled {
         grid-template-columns: 1fr;
     }
 }
+.agent-step {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background: white;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-size: 1em;
+  color: #1e293b;
+  transition: all 0.3s ease;
+}
+
+.agent-step:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transform: translateX(5px);
+}
+
+#statusSection, #agentReasoningSection, #alternativesSection {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+table tr:hover {
+  background: #f8fafc !important;
+}
